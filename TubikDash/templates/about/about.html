@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block content %}
+	{% load static %}
+	<body data-spy="scroll" data-target=".navbar-collapse">
+	<!--[if lt IE 8]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
+		href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<section id="lessons" class="lessons">
+		<div class="container">
+			<div class="row">
+				<div class="main_lessons">
+					<div class="col-sm-8 col-sm-offset-1">
+						<div class="main_lessons_area sections">
+							<div class="lesson_title"><br><br><br><br><br>
+								<h1>НАШ СЕРВИС</h1>
+								<p>УДОБЕН</p>
+							</div>
+							<div class="lesson_content">
+								<ul class="lessonsborder">
+									<li><i class="fa fa-clone"></i> <a href="">ИЗУЧАЙ</a></li>
+									<li><i class="fa fa-globe"></i> <a href="">АНАЛИЗИРУЙ</a></li>
+									<li><i class="lnr lnr-rocket"></i> <a href="">ПРЕДУГАДЫВАЙ</a></li>
+									<li><i class="lnr lnr-volume-high"></i> <a href="">ЗАРАБАТЫВАЙ</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="main_portfolio sections">
+					<div class="head_title text-center">
+						<h2>НАШ ПРОЕКТ</h2>
+						<div class="separator"></div>
+						<p>Разработка предназначена для банков, которым нкобходим сервис для быстрого и удобного анализа и отслеживания данных курсов, акций, параметров</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+				aria-hidden="true">&times;</span></button>
+		</div>
+		<section id="callus" class="callus">
+			<div class="callus_overlay">
+				<div class="container">
+					<div class="row">
+						<div class="main_callus">
+							<div class="col-sm-6 col-xs-12">
+								<div class="single_callus">
+									<div class="skypeicon_left">
+										<i class="fa fa-envelope"></i>
+										<h2>НАПИШИТЕ НАМ!</h2>
+										<h3>И ПОЛУЧИ ПОДДЕРЖКУ</h3>
+										<div class="skypeicon_right">
+											<h3>mishabor7@mail.ru</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="testimonial" class="testimonial">
+			<div class="container">
+				<div class="row">
+					<div class="main_testimonial_area sections text-center">
+						<div class="head_title">
+							<h2>НАША КОМАНДА</h2>
+							<div class="separator"></div>
+						</div>
+						<div class="main_testimonial_content">
+							<div class="single_testimonial">
+								<div class="single_test_thumbnail">
+									<img class="img-circle img-responsive" src="{% static "img/misha.jpg" %}"
+									     alt=""/>
+								</div>
+								<div class="single_test_content">
+									<p>Гений, эстет, бог, или просто - нэхадерет</p>
+									<div class="single_author_content">
+										<h2>Миша Борисов</h2>
+										<p>Разработчик</p>
+									</div>
+								</div>
+							</div>
+							<div class="single_testimonial">
+								<div class="single_test_thumbnail">
+									<img class="img-circle img-responsive" src="{% static "img/aur.jpg" %}" alt=""/>
+								</div>
+								<div class="single_test_content">
+									<p>Бизнесмен, филантроп, на обложке плей-бой</p>
+
+									<div class="single_author_content">
+										<h2>Аюр Ихласов</h2>
+										<p>Разработчик</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</body>
+{% endblock %}

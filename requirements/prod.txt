@@ -1,0 +1,10 @@
+django
+python-dotenv
+psycopg2-binary
+django-debug-toolbar
+django_plotly_dash
+django-crispy-forms
+crispy_bootstrap4
+lxml
+requests
+yfinance
